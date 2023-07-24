@@ -9,3 +9,9 @@ echo "Backup Started for $filename"
 tar -cvf $tgt/$filename $src
 
 echo "Backup Successful"
+
+
+
+#Create a crontab to automate the above script for every minute
+#crontab -e
+# * * * * * bash <location of the script>
