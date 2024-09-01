@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 Backup_directory="/home/ubuntu/90daysofdevops/*"
 Backups="/home/ubuntu/BackupFolder"
